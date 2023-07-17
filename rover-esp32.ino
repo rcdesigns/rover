@@ -14,17 +14,17 @@ WebServer server(80);
 
 // Motor A
 int enable1Pin = 32; 
-int motor1Pin1 = 33; 
-int motor1Pin2 = 25; 
+int motor1Pin1 = 25; 
+int motor1Pin2 = 33; 
 
 
 // Motor B
-int motor2Pin1 = 26; 
-int motor2Pin2 = 27; 
+int motor2Pin1 = 27; 
+int motor2Pin2 = 26; 
 int enable2Pin = 14; 
 
-int sonicTx = 22;
-int sonicRx = 23;
+int sonicTx = 16;
+int sonicRx = 5;
 
 
 // Setting PWM properties
