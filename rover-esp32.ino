@@ -49,7 +49,7 @@ void setup() {
   pinMode(enable2Pin, OUTPUT);
 
   pinMode(sonicTx, OUTPUT);
-  pinMode(sonicRx, OUTPUT);
+  pinMode(sonicRx, INPUT);
   
   // configure LED PWM functionalitites
 //  ledcSetup(pwmChannel, freq, resolution);
